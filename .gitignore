@@ -1,4 +1,8 @@
-/hbodata
+/hbodata_v1_human_ai
+/hbodata_v2_TD
+/hbodata_v2_WD
+/rawdata_v2
+/story_data_v2
 hb_object.mat
 design_mat_w_word_hist.mat
 /__pycache__

@@ -150,10 +150,10 @@ def time_series_ridge_cv_cuda(X, y, n_splits=5, device='cuda'):
         correlations.append(fold_corr)
         z_scores.append(fold_z)
         
-        print(f"Fold {fold + 1}:")
-        print(f"  Selected alpha = {best_alpha:.2e}")
-        print(f"  Correlation = {fold_corr:.4f}")
-        print(f"  Fisher Z = {fold_z:.4f}")
+        #print(f"Fold {fold + 1}:")
+        #print(f"  Selected alpha = {best_alpha:.2e}")
+        #print(f"  Correlation = {fold_corr:.4f}")
+        #print(f"  Fisher Z = {fold_z:.4f}")
     
     # Calculate average correlation and Z-score
     mean_correlation = np.mean(correlations)
