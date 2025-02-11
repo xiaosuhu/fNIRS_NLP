@@ -1,6 +1,6 @@
 test = squeeze(mean(brain_score, 1))';
 
-roi1=mean(test(:,[1 2 3]), 2);
+roi1=mean(test(:,[3]), 2);
 roi2=mean(test(:,[9 10]), 2);
 
 figure
