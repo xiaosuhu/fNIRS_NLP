@@ -115,7 +115,7 @@ Data_Prep/data_cut_two_ver_combined.m
 
    ![Forecasting Pipeline](Forcasting_pipeline.png)
 
-1) Example results are included in `Example_data/`.
+Example results are included in `Example_data/`.
 
 ---
 
