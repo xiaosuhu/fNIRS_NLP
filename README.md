@@ -94,7 +94,7 @@ Data_Prep/data_cut_two_ver_combined.m
    2. GPT2 embedding calculation
    3. HbO data prep
    4. Design matrix prep
-   5. brain score calc
+   5. brain score calc  
         Nested Cross-Validation and Ridge Regression
          - **Data Preparation**:
            - The input data (X, y) is scaled using `StandardScaler` to standardize features.
