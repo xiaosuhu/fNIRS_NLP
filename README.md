@@ -95,7 +95,7 @@ Data_Prep/data_cut_two_ver_combined.m
    3. HbO data prep
    4. Design matrix prep
    5. brain score calc
-      5. Nested Cross-Validation and Ridge Regression
+        Nested Cross-Validation and Ridge Regression
          - **Data Preparation**:
            - The input data (X, y) is scaled using `StandardScaler` to standardize features.
            - A `TimeSeriesSplit` is used for time-aware cross-validation.
@@ -115,7 +115,7 @@ Data_Prep/data_cut_two_ver_combined.m
 
    ![Forecasting Pipeline](Forcasting_pipeline.png)
 
-4) Example results are included in `Example_data/`.
+1) Example results are included in `Example_data/`.
 
 ---
 
